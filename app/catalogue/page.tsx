@@ -99,13 +99,16 @@ export default function CataloguePage() {
       </div>
 
       {/* Masonry Pinterest via CSS columns */}
+      {/* Masonry Pinterest via CSS columns */}
       <div className="px-6 sm:px-12 lg:px-[64px] pb-24">
         <div
-          style={{
-            columnCount: 4,
-            columnGap: "24px",
-          }}
-          className="lg:columns-4 md:columns-3 sm:columns-2 columns-2"
+          className="
+      columns-1
+      sm:columns-2
+      md:columns-3
+      lg:columns-4
+      gap-6
+    "
         >
           {PUBLICATIONS.map((pub, index) => (
             <div key={index} className="break-inside-avoid mb-6">
