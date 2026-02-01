@@ -60,7 +60,7 @@ function StackedCard({
   if (index === total - 1) {
     return (
       <motion.div
-        className="sticky top-10 w-fit flex mx-auto"
+        className="sticky top-10 w-full flex justify-center"
         style={{ zIndex: index + 1 }}
       >
         <PresentationCard
@@ -74,7 +74,7 @@ function StackedCard({
 
   return (
     <motion.div
-      className="sticky top-20 w-fit mx-auto flex justify-end"
+      className="sticky top-20 w-full flex justify-center"
       style={{
         scale,
         y,

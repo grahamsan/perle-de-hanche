@@ -59,7 +59,7 @@ const PUBLICATIONS = [
 export default function PreAlbumSection() {
   const router = useRouter();
   return (
-    <section className="bg-yellow-50 py-20 flex flex-col gap-y-16">
+    <section className="bg-yellow-50 py-20 flex flex-col gap-y-16 overflow-hidden">
       <div className="text-[48px] font-semibold text-[#E9AB17] font-style-script text-center">
         Découvrez l'album photo
       </div>

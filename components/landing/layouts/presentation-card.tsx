@@ -15,7 +15,7 @@ export default function PresentationCard({
 }: PresentationCardProps) {
   return (
     <div
-      className="flex flex-col lg:flex-row gap-y-5 lg:gap-x-8 w-full max-w-[280px] 
+      className="flex flex-col lg:flex-row gap-y-5 lg:gap-x-8 w-full max-w-[400px] 
     lg:max-w-[1100px] h-full bg-[#F5F2ED]/70 backdrop-blur-[10px] p-4 rounded-[18px] border border-zinc-200"
     >
       {/* Image */}
